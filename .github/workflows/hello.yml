@@ -1,0 +1,8 @@
+name: hello
+on: push
+jpbs: 
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello. WOrld"
+      - uses: actions/checkout@v4
